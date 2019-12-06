@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="system">
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="system2">
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="unit">
+        <item>长度</item>
+        <item>面积</item>
+        <item>体积</item>
+        <item>质量</item>
+        <item>时间</item>
+        <item>数据存储</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>米(m)</item>
+        <item>千米(km)</item>
+        <item>分米(dm)</item>
+        <item>厘米(cm)</item>
+        <item>毫米(mm)</item>
+    </string-array>
+    <string-array name="area">
+        <item>平方米(m²)</item>
+        <item>平方千米(km²)</item>
+        <item>平方分米(dm²)</item>
+        <item>平方厘米(cm²)</item>
+        <item>平方毫米(mm²)</item>
+        <item>公顷(ha)</item>
+        <item>亩</item>
+    </string-array>
+    <string-array name="volume">
+        <item>立方米(m³)</item>
+        <item>立方分米(dm³)</item>
+        <item>立方厘米(cm³)</item>
+        <item>升(l)</item>
+    </string-array>
+    <string-array name="mass">
+        <item>千克(kg)</item>
+        <item>克(g)</item>
+        <item>吨(t)</item>
+        <item>斤</item>
+    </string-array>
+    <string-array name="time">
+        <item>日(day)</item>
+        <item>年(yr)</item>
+        <item>周(week)</item>
+        <item>小时(h)</item>
+        <item>分钟(min)</item>
+        <item>秒(s)</item>
+    </string-array>
+    <string-array name="data">
+        <item>千字节(kb)</item>
+        <item>比特(bit)</item>
+        <item>字节(b)</item>
+        <item>兆字节(mb)</item>
+        <item>千兆字节(gb)</item>
+    </string-array>
+</resources>
