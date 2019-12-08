@@ -55,6 +55,12 @@ public class calculator_change extends AppCompatActivity implements View.OnClick
                 btn_7 = findViewById(R.id.btn_7),
                 btn_8 = findViewById(R.id.btn_8),
                 btn_9 = findViewById(R.id.btn_9),
+                btn_10 = findViewById(R.id.btn_10),
+                btn_11 = findViewById(R.id.btn_11),
+                btn_12 = findViewById(R.id.btn_12),
+                btn_13 = findViewById(R.id.btn_13),
+                btn_14 = findViewById(R.id.btn_14),
+                btn_15 = findViewById(R.id.btn_15),
                 btn_emp = findViewById(R.id.btn_c),
                 btn_back = findViewById(R.id.btn_back),
                 btn_bs = findViewById(R.id.btn_backspace),
@@ -70,6 +76,12 @@ public class calculator_change extends AppCompatActivity implements View.OnClick
         btn_7.setOnClickListener(this);
         btn_8.setOnClickListener(this);
         btn_9.setOnClickListener(this);
+        btn_10.setOnClickListener(this);
+        btn_11.setOnClickListener(this);
+        btn_12.setOnClickListener(this);
+        btn_13.setOnClickListener(this);
+        btn_14.setOnClickListener(this);
+        btn_15.setOnClickListener(this);
         btn_emp.setOnClickListener(this);
         btn_poi.setOnClickListener(this);
         btn_bs.setOnClickListener(this);
@@ -89,8 +101,6 @@ public class calculator_change extends AppCompatActivity implements View.OnClick
         adapter = ArrayAdapter.createFromResource(calculator_change.this, R.array.system,
                 android.R.layout.simple_spinner_item);
         sp1.setAdapter(adapter);
-        adapter = ArrayAdapter.createFromResource(calculator_change.this, R.array.system2,
-                android.R.layout.simple_spinner_item);
         sp2.setAdapter(adapter);
         sp1.setOnItemSelectedListener(new Spinner.OnItemSelectedListener() {
             public void onItemSelected(AdapterView<?> arg0, View arg1,
@@ -233,6 +243,54 @@ public class calculator_change extends AppCompatActivity implements View.OnClick
                     s1 = "9";
                 else
                     s1 = s1 + "9";
+                break;
+            case R.id.btn_10:
+                if(v1 < 11)
+                    break;
+                if(c1.compareTo("0")==0 && n==1)
+                    s1 = "A";
+                else
+                    s1 = s1 + "A";
+                break;
+            case R.id.btn_11:
+                if(v1 < 12)
+                    break;
+                if(c1.compareTo("0")==0 && n==1)
+                    s1 = "B";
+                else
+                    s1 = s1 + "B";
+                break;
+            case R.id.btn_12:
+                if(v1 < 13)
+                    break;
+                if(c1.compareTo("0")==0 && n==1)
+                    s1 = "C";
+                else
+                    s1 = s1 + "C";
+                break;
+            case R.id.btn_13:
+                if(v1 < 14)
+                    break;
+                else if(c1.compareTo("0")==0 && n==1)
+                    s1 = "D";
+                else
+                    s1 = s1 + "D";
+                break;
+            case R.id.btn_14:
+                if(v1 < 15)
+                    break;
+                if(c1.compareTo("0")==0 && n==1)
+                    s1 = "E";
+                else
+                    s1 = s1 + "E";
+                break;
+            case R.id.btn_15:
+                if(v1 < 16)
+                    break;
+                if(c1.compareTo("0")==0 && n==1)
+                    s1 = "F";
+                else
+                    s1 = s1 + "F";
                 break;
             case R.id.btn_c:
                 s1 = "";
